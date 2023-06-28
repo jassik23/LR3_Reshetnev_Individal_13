@@ -1,0 +1,43 @@
+
+<html> 
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css"/>
+
+  </head>
+  <body> 
+
+    <div class="r-block">
+        <p>Количество фигур:
+          <input type="text" name="" value="40"/>
+          <button id="butt-02">Построить график</button>
+        </p>
+      <div id="graf-container">
+        <div class="curr-graff"></div>
+        <p id="p-1-1">Введено неверное колличество фигур. Введите значения в диапазоне от 10 до 300</p>
+      </div>
+    </div>
+
+      
+    <p id="inl">Функция:&nbsp;&nbsp;
+      <p id="inl">$$f(x) = \frac{4-x}{x^2 - 4}$$</p>
+    </p>
+
+    <div id="graf-container_02">
+      <div class="curr-graff_02"></div>
+      <p id="p-1-2">Введён неверный интервал. Первое значение должно быть меньше второго, и находиться в промежутке от -100 до 20</p>
+    </div>
+
+    <p id="inl">Интервал: от
+      <input id="pg-0-inp-1" type="text" name="" value="-10"/>до
+      <input id="pg-0-inp-2" type="text" name="" value="20"/>
+      <button id="butt-003">Построить график</button>
+    </p>
+
+    
+  </body>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
+</html>
